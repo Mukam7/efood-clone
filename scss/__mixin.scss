@@ -1,0 +1,21 @@
+@mixin global-btn {
+  color: $color-wht !important;
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  background: #ff7a50;
+  box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+  border-radius: 5px;
+}
+
+@mixin font-ws {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@mixin wid-hei {
+  width: 70px;
+  height: 70px;
+}
