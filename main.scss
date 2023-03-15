@@ -136,7 +136,7 @@ main {
       .home-box-right {
         position: relative;
         img {
-          width: 600px;
+          width: 100%;
         }
         .card-one {
           display: flex;
@@ -242,6 +242,10 @@ main {
 @media (max-width: 1000px) {
   header {
     .brand img {
+      position: absolute;
+      top: 33px;
+      left: 0;
+      margin-left: 30px;
       width: 90px;
     }
     .navigation {
@@ -265,6 +269,9 @@ main {
   }
   #navbar-open {
     display: block !important;
+    img {
+      margin-right: -50px !important;
+    }
   }
   #navbar-responsive {
     display: block !important;
@@ -303,8 +310,27 @@ main {
     display: flex;
     flex-wrap: wrap-reverse;
     .home-box-left {
-      h3{
+      h3 {
         text-align: center;
+      }
+    }
+    .home-box-right {
+      .card-one {
+        position: absolute;
+        width: 150px;
+        top: 0 !important;
+        left: 0 !important;
+        img {
+          width: 25px !important;
+          height: 25px !important;
+        }
+        h4 {
+          font-size: 12px;
+        }
+      }
+      .card-two {
+        width: 200px !important;
+        left: 0 !important;
       }
     }
   }
