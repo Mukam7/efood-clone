@@ -136,7 +136,7 @@ main {
       .home-box-right {
         position: relative;
         img {
-          width: 100%;
+          width: 600px;
         }
         .card-one {
           display: flex;
@@ -332,6 +332,28 @@ main {
         width: 200px !important;
         left: 0 !important;
       }
+      .img-1 {
+        img {
+          width: 50px !important;
+          height: 50px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .home-box-right {
+    .male {
+      width: 100% !important;
+    }
+    .img-1 {
+      img {
+        display: none;
+      }
+    }
+    .vector {
+      display: none;
     }
   }
 }
