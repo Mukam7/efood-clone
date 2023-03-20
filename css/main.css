@@ -332,6 +332,10 @@ main #home .home-box-global .home-box-right .card-two h3 span {
   .home-box-right .img-1 img {
     display: none;
   }
+  .home-box-right .img2 img {
+    position: absolute !important;
+    right: 0 !important;
+  }
   .home-box-right .vector {
     display: none;
   }
